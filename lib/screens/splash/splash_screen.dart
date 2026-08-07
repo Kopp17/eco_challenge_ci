@@ -1,7 +1,23 @@
 import 'package:flutter/material.dart';
 
-class SplashScreen extends StatelessWidget {
+import '../../routes/app_routes.dart';
+
+class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
+
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+
+    Future.delayed(const Duration(seconds: 3), () {
+      Navigator.pushReplacementNamed(context, AppRoutes.home);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -11,14 +27,19 @@ class SplashScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
 
           children: [
-            Icon(Icons.eco, size: 100, color: Colors.green),
+            const Icon(Icons.eco, size: 100, color: Colors.green),
 
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
 
-            Text(
+            const Text(
               "EcoChallenge CI",
+
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
             ),
+
+            const SizedBox(height: 10),
+
+            const CircularProgressIndicator(color: Colors.green),
           ],
         ),
       ),
