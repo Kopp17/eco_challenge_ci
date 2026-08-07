@@ -29,6 +29,7 @@ class EcoChallengeApp extends StatelessWidget {
       title: "EcoChallenge CI",
 
       theme: AppTheme.lightTheme,
+
       darkTheme: AppTheme.darkTheme,
 
       themeMode: themeProvider.themeMode,
