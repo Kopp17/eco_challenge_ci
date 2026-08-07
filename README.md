@@ -1,17 +1,57 @@
-# eco_challenge_ci
+# 🌱 EcoChallenge CI
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
+![Dart](https://img.shields.io/badge/Dart-3.x-blue)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-green)
 
-## Getting Started
+## 🌍 Présentation
 
-This project is a starting point for a Flutter application.
+**EcoChallenge CI** est une application mobile et web dédiée à la protection de l'environnement en Côte d'Ivoire.
 
-A few resources to get you started if this is your first Flutter project:
+Elle permet aux utilisateurs de participer à des défis écologiques, gagner des points, obtenir des badges et contribuer à une communauté engagée pour un avenir plus vert.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Fonctionnalités
+
+### 👤 Utilisateurs
+- Création de compte
+- Connexion sécurisée
+- Profil utilisateur
+- Suivi des actions écologiques
+
+### 🌱 Défis écologiques
+- Liste des défis
+- Validation des défis
+- Système de points
+- Badges et récompenses
+
+### 🏆 Communauté
+- Classement des utilisateurs
+- Progression écologique
+- Partage des résultats
+
+### 🗺️ Environnement
+- Carte des points de recyclage
+- Localisation des centres partenaires
+
+### ⚙️ Application
+- Mode sombre
+- Notifications
+- Synchronisation cloud Firebase
+
+---
+
+## 🛠️ Technologies utilisées
+
+- Flutter
+- Dart
+- Firebase
+- Cloud Firestore
+- Firebase Authentication
+- Google Maps
+- Provider
+
+---
+
+## 📂 Architecture
