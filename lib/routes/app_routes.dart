@@ -4,6 +4,7 @@ import '../screens/splash/splash_screen.dart';
 import '../screens/auth/login_screen.dart';
 import '../screens/auth/register_screen.dart';
 import '../screens/home/home_screen.dart';
+import '../screens/challenge/challenge_screen.dart';
 
 class AppRoutes {
   static const String splash = "/";
@@ -14,6 +15,8 @@ class AppRoutes {
 
   static const String home = "/home";
 
+  static const String challenge = "/challenge";
+
   static Map<String, WidgetBuilder> routes = {
     splash: (context) => const SplashScreen(),
 
@@ -22,5 +25,7 @@ class AppRoutes {
     register: (context) => const RegisterScreen(),
 
     home: (context) => const HomeScreen(),
+   
+    challenge: (context) => const ChallengeScreen(),
   };
 }
